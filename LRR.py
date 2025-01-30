@@ -31,7 +31,7 @@ class LR:
         return pred
 
 
-df = pd.read_csv('ML_Practice/datasets/package.csv') 
+df = pd.read_csv('S:/Github/ML_Practice/datasets/package.csv') 
 x = df.iloc[:, 0].values
 y = df.iloc[:, 1].values
 
